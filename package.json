@@ -1,12 +1,12 @@
 {
-  "name": "boilerplate-test",
+  "name": "create-boilerplate-test",
   "packageManager": "yarn@3.5.0",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build index.js"
   },
   "bin": {
-    "create-boilerplate": "./generate-app.js"
+    "create-boilerplate": "./bin/generate-app.js"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
